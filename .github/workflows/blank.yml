@@ -1,0 +1,16 @@
+name:  Keko
+on:
+  push:
+    branches:  ['main']
+  pull_request:
+    branches:  ["main"]
+jobs:
+  paulo:
+    runs-on: ubuntu-latest
+    steps:
+    -  name: Skibidi toi
+       run: |
+        echo jonatas
+    
+  
+  
